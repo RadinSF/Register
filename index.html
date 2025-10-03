@@ -11,7 +11,7 @@
 <style>
     body{
         font-family: rubik;
-        background-color: rgb(235, 235, 235);
+        background-color: rgb(238, 238, 238);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -20,12 +20,12 @@
 
     }
     .container{
-        background-color: rgb(184, 184, 184);
+        background-color: rgb(211, 211, 211);
         padding: 20px;
         border-radius: 8px;
-       box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+      box-shadow: -6px 9px 8px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: -6px 9px 8px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 9px 8px -3px rgba(0,0,0,0.75);
          width: 300px;
          text-align: center;
     }
@@ -44,14 +44,14 @@
         width: 90%;
         padding: 8px;
         margin: 0 auto 15px;
-        border: 1px solid rgb(102, 102, 102);
+        border: 1px solid rgb(119, 119, 119);
         border-radius: 4px;
         font-size: 14px;
     }
     button{
         width: 90%;
         padding: 10px;
-        background-color: green;
+        background-color: rgb(0, 55, 138);
         border: none;
         border-radius: 4px;
         color: aliceblue;
@@ -67,14 +67,10 @@
 <body>
     <div class="container">
     <h3> ثبت نام</h3>
-    <label for="email">ایمیل</label>
+    <label for="email Or phone number"> ایمیل یا شماره تلفن</label>
     <input type="email" id="email" name="email" required>
     <label for="password">رمز عبور</label>
     <input type="password" id="password" name="password" required>
-    <label for="confirm">تایید رمز عبور</label>
-    <input type="confirm" id="confirm" name="confirm" required>
-    <label for="phone">شماره تلفن</label>
-    <input type="phone" id="phone" name="phone" required>
     <button type="submit">ثبت نام</button>
 </div>
 </body>
