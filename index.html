@@ -1,77 +1,23 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>فرم ثبت نام</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="asset/style.css">
+    
 </head>
-<style>
-    body{
-        font-family: rubik;
-        background-color: rgb(238, 238, 238);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
 
-    }
-    .container{
-        background-color: rgb(211, 211, 211);
-        padding: 20px;
-        border-radius: 8px;
-      box-shadow: -6px 9px 8px -3px rgba(0,0,0,0.75);
--webkit-box-shadow: -6px 9px 8px -3px rgba(0,0,0,0.75);
--moz-box-shadow: -6px 9px 8px -3px rgba(0,0,0,0.75);
-         width: 300px;
-         text-align: center;
-    }
-    h2{
-        margin-bottom: 20px;
-    }
-    label{
-        display: block;
-        margin: 10px auto 5px;
-        font-size: 14px;
-        text-align: right;
-        width: 90%;
-        
-    }
-    input{display: block;
-        width: 90%;
-        padding: 8px;
-        margin: 0 auto 15px;
-        border: 1px solid rgb(119, 119, 119);
-        border-radius: 4px;
-        font-size: 14px;
-    }
-    button{
-        width: 90%;
-        padding: 10px;
-        background-color: rgb(0, 55, 138);
-        border: none;
-        border-radius: 4px;
-        color: aliceblue;
-        font-size: 16px;
-        cursor: pointer;
-        margin: 0 auto;
-        display: block;
-    }
-    button:hover{
-        background-color: black;
-    }
-</style>
 <body>
     <div class="container">
-    <h3> ثبت نام</h3>
+    <h3> Sign up</h3>
     <label for="email Or phone number"> ایمیل یا شماره تلفن</label>
-    <input type="email" id="email" name="email" required>
-    <label for="password">رمز عبور</label>
-    <input type="password" id="password" name="password" required>
-    <button type="submit">ثبت نام</button>
+    <input type="email" id="email" name="email" required placeholder="forexample@example.com">
+    <label for="password">password</label>
+    <input type="password" id="password" name="password" required placeholder="password">
+    <label for="confirm password">confirm password</label>
+    <input type="confirm password" id="password" name="password" required placeholder="confirm password">
+    <button type="submit">Sign up</button>
 </div>
 </body>
 </html>
